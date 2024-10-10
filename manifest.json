@@ -1,9 +1,130 @@
 {
+    "Audi": [
+        "background_incar_vw3.png",
+        "dial_background_marks_audi.png",
+        "dial_background_blank_audi.png",
+        "sw_background_audi.png",
+        "needle_audi_red.png",
+        "thumb_background_incar_vw3.png"
+    ],
+    "Audi Virtual Cockpit": [
+        "background_incar_vw3.png",
+        "dial_background_audi3.png",
+        "dial_background_blank_audi3.png",
+        "thumb_background_incar_vw3.png",
+        "dial_background_marks_audi3.png",
+        "needle_audi3.png"
+    ],
+    "Seat Cupra": [
+        "needle_seat.png",
+        "dial_background_empty_seat2.png",
+        "dial_background_seat2.png",
+        "dial_background_blank_seat2.png",
+        "sw_background_seat2.png"
+    ],
+    "Cupra Division": [
+        "background_incar_cupra.png",
+        "dial_background_empty_cupra.png",
+        "needle_cupra.png",
+        "thumb_background_incar_cupra.png",
+        "dial_background_cupra.png",
+        "dial_background_blank_cupra.png",
+        "sw_background_seat2.png"
+    ],
+    "VW GTI": [
+        "sw_background_vw.png",
+        "thumb_background_incar_vw.png",
+        "dial_background_blank.png",
+        "needle.png",
+        "dial_background_marks.png",
+        "dial_background_marks_empty.png",
+        "background_incar_vw.png"
+    ],
+    "Seat": [
+        "dial_background_seat.png",
+        "needle_seat.png",
+        "sw_background_seat.png",
+        "dial_background_marks_seat.png",
+        "dial_background_blank_seat.png"
+    ],
+    "Audi TT": [
+        "dial_background_audi4.png",
+        "background_incar_plain.png",
+        "dial_background_marks_audi4.png",
+        "needle_audi4.png",
+        "dial_background_blank_audi4.png",
+        "thumb_background_incar_plain.png"
+    ],
     "exampleTheme": [
+        "ic_theme_am.png",
         "background_incar_def.png",
         "dial_background_def.png",
         "needle_def.png",
         "sw_background_def.png",
         "dial_background_empty_def.png"
+    ],
+    "Mustang GT": [
+        "dial_background_ford.png",
+        "needle_mib2p.png",
+        "dial_background_blank_ford.png",
+        "background_incar_black.png",
+        "dial_background_empty_ford.png",
+        "thumb_background_incar_black.png"
+    ],
+    "Minimalistic": [
+        "dial_background_blank_minimal.png",
+        "dial_background_minimal.png",
+        "dial_background_marks_minimal.png",
+        "needle_cupra.png",
+        "background_incar_black.png",
+        "dial_background_empty_minimal.png",
+        "thumb_background_incar_black.png"
+    ],
+    "Skoda": [
+        "needle_skoda.png",
+        "background_incar_skoda.png",
+        "sw_background_skoda.png",
+        "dial_background_blank_skoda.png",
+        "dial_background_skoda.png",
+        "thumb_background_incar_skoda.png",
+        "dial_background_empty_skoda.png"
+    ],
+    "Dark": [
+        "needle_dark.png",
+        "sw_background_dark.png",
+        "dial_background_empty_dark.png",
+        "background_incar_black.png",
+        "dial_background_blank_dark.png",
+        "thumb_background_incar_black.png",
+        "dial_background_dark.png"
+    ],
+    "Aston Martin": [
+        "ic_theme_am.png",
+        "needle_am.png",
+        "dial_background_blank_am.png",
+        "dial_background_marks_am.png"
+    ],
+    "Clubsport": [
+        "sw_background_vw2.png",
+        "dial_background_vw2.png",
+        "needle_vw3.png",
+        "thumb_background_incar_vw_plaid.png",
+        "background_incar_vw_plaid.png",
+        "dial_background_blank_vw2.png",
+        "dial_background_empty_vw2.png"
+    ],
+    "Electro Vehicle": [
+        "dial_background_blank_ev.png",
+        "needle_ev.png",
+        "dial_background_marks_ev.png"
+    ],
+    "BMW": [
+        "sw_background_dark.png",
+        "dial_background_blank_bmw.png",
+        "background_incar_black.png",
+        "dial_background_empty_bmw.png",
+        "needle_bmw.png",
+        "dial_background_bmw.png",
+        "thumb_background_incar_black.png"
     ]
 }
