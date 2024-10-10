@@ -1,5 +1,8 @@
 name: Update Manifest
 
+permissions:
+  contents: write
+  
 # Trigger workflow on push or pull request to the default branch
 on:
   push:
