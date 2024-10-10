@@ -1,5 +1,9 @@
 {
-    "folders": [
-        "exampleTheme"
+    "exampleTheme": [
+        "background_incar_def.png",
+        "dial_background_def.png",
+        "needle_def.png",
+        "sw_background_def.png",
+        "dial_background_empty_def.png"
     ]
 }
