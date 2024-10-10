@@ -1,13 +1,12 @@
 name: Update Manifest
 
 permissions:
-  contents: write
-  
-# Trigger workflow on push or pull request to the default branch
+  contents: write  # Allow GitHub Actions to push changes to the repository
+
 on:
   push:
     paths:
-      - "**/"     # Trigger on any file/folder change in any directory
+      - "**/"
   pull_request:
     paths:
       - "**/"
@@ -17,21 +16,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Checkout the repository
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4  # Use latest version of checkout action
 
-      # Step 2: Set up Python (or your preferred language environment)
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5  # Use latest version of setup-python action
         with:
           python-version: '3.x'
 
-      # Step 3: Run the script to generate the manifest
       - name: Generate manifest
         run: python generate_manifest.py
 
-      # Step 4: Commit the changes to the repository (if manifest.json was updated)
       - name: Commit manifest
         run: |
           git config --global user.name "github-actions[bot]"
@@ -40,7 +35,6 @@ jobs:
           git commit -m "Update manifest.json"
         continue-on-error: true
 
-      # Step 5: Push changes back to the repository
       - name: Push changes
         run: git push
         continue-on-error: true
